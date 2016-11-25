@@ -6,9 +6,8 @@ public class Ejercicio02{
 		String frase;
 		int i, mayus=0, minus=0;
 		char letra;
-		frase.
 
-		System.out.print("Introduce una frase: ");
+		System.out.println("Introduce una frase: ");
 		frase=teclado.nextLine();
 
 		while (frase.length() > 80){
@@ -18,7 +17,6 @@ public class Ejercicio02{
 
 		for (i=0; i<frase.length(); i++){
 			letra=frase.charAt(i);
-			//System.out.println(letra);
 			if (letra>='a'&& letra <='z'){
 				minus++;
 			}
